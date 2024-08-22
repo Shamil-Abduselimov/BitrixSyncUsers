@@ -1,0 +1,30 @@
+.content_history {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.content_history .history_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 80px 120px auto;
+  gap: 5px;
+}
+
+.content_history .history_item .item_column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.content_history .history_item .item_column .item_column--title {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.content_history .history_item .item_column .item_column--value {
+  font-size: 1.2em;
+}

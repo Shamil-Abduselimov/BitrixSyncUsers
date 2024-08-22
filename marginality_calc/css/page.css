@@ -1,0 +1,126 @@
+.form_block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: 0;
+  z-index: 1000;
+  background-color: rgba(51, 51, 51, 0.501961);
+}
+
+.form_block .form_page {
+  background-color: #fff;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  gap: 5px;
+}
+
+.form_block .form_page .page_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form_block .form_page .page_header .page--title {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+}
+
+.form_block .form_page .page_header .page--close {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.form_block .form_page .page_header .page--close:before, .form_block .form_page .page_header .page--close:after {
+  position: absolute;
+  left: 8px;
+  content: ' ';
+  height: 16px;
+  width: 2px;
+  background-color: #333;
+}
+
+.form_block .form_page .page_header .page--close:before {
+  transform: rotate(45deg);
+}
+
+.form_block .form_page .page_header .page--close:after {
+  transform: rotate(-45deg);
+}
+
+.form_block .form_page .page_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.form_block .form_page .page_content select,
+.form_block .form_page .page_content .content_fields *:not(.item--title) {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form_block .form_page .page_content .content_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.form_block .form_page .page_content .content_fields .fields_item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.form_block .form_page .page_content .content_fields .fields_item .item--title {
+  font-size: 1em;
+}
+
+.form_block .form_page .page_content .content_fields .fields_item textarea.item--field {
+  resize: vertical;
+}
+
+.form_block .form_page .page--btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.form_block .form_page .page--btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.form_block .form_page .page--btn[disabled] {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
