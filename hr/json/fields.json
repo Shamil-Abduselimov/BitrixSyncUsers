@@ -1,0 +1,136 @@
+{
+    "UF_CRM_1722424228": {
+        "type": "select",
+        "value": {
+            "19931": "Основной сотрудник",
+			"19932": "Внешнее совместительство",
+			"19933": "Внутреннее совместительство"
+        },
+        "required": true
+    },
+    "UF_CRM_1722426954": {
+        "type": "select",
+        "value": {
+			"19934": "Бессрочный трудовой договор",
+			"19935": "Срочный Трудовой договор",
+			"19936": "ГПХ",
+			"19937": "Договор самозанятого"
+        },
+        "required": true
+    },
+    "UF_CRM_1705311084797": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705311103188": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705311131023": {
+        "type": "number",
+        "required": true
+    },
+    "UF_CRM_1713085265942": {
+        "type": "department",
+        "required": true
+    },
+    "UF_CRM_1705311447619": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705311518848": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705311536486": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705311578971": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1718917435": {
+        "type": "groupbox",
+        "multiple": true,
+        "value": {
+            "19927": "Без компенсации",
+            "19673": "Водитель",
+            "19674": "Компенсация бензина",
+            "19675": "Карта \"Тройка\""
+        },
+        "required": true
+    },
+    "UF_CRM_1719074105": {
+        "type": "groupbox",
+        "multiple": true,
+        "value": {
+            "19676": "Никуда не добавлять",
+            "19677": "Сайт \"Вита Мед\"",
+            "19678": "СберЗдоровье",
+            "19679": "ПроДокторов",
+            "19680": "НаПоправку",
+            "19681": "Приложение \"GoDoc\"",
+            "19682": "МИС \"GoDoc\"",
+            "19683": "Врачи Онлайн",
+            "19928": "Академия \"Вита Мед\""
+        },
+        "required": true
+    },
+    "UF_CRM_1705311682855": {
+        "type": "textarea",
+        "required": false
+    },
+    "UF_CRM_1705311703798": {
+        "type": "date",
+        "required": false
+    },
+    "UF_CRM_1705310950690": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1714119169": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1714119263": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1714119294": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_HR_1_4": {
+        "type": "text",
+        "required": true
+    },
+    "UF_CRM_1705327751149": {
+        "type": "date",
+        "required": true
+    },
+    "UF_CRM_1705327812246": {
+        "type": "select",
+        "value": {
+            "19569": "сотрудник",
+            "19570": "руководитель"
+        },
+        "required": true
+    },
+    "UF_CRM_1705327841182": {
+        "type": "text",
+        "required": true
+    },
+    "COMMENTS": {
+        "type": "textarea",
+        "required": true
+    },
+    "UF_CRM_1691587762": {
+        "type": "file",
+        "required": true
+    },
+    "DESCRIPTION": {
+        "type": "text",
+        "required": true
+    }
+}

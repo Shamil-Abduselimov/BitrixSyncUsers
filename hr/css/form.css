@@ -1,0 +1,138 @@
+.modal {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form_block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form_block .form_header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form_block .form_header .header--title {
+  font-size: 1.5em;
+}
+
+.form_block .form_category {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+  border: 0;
+}
+
+.form_block .form_category select {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.25em;
+  background: #eee;
+}
+
+.form_block .form_category span {
+  color: #666;
+  padding: 0 10px;
+}
+
+.form_block .form_content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.form_block .form_content .field_group {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.form_block .form_content .field_group .sub--title {
+  position: absolute;
+  background: #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.75em;
+  font-weight: 700;
+  top: -12.5px;
+}
+
+.form_block .form_content .field_item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.form_block .form_content .field_item .item--title {
+  font-size: 1em;
+}
+
+.form_block .form_content .field_item input, .form_block .form_content .field_item textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.25em;
+}
+
+.form_block .form_content .field_item select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.25em;
+}
+
+.form_block .form_content .field_item textarea.item--field {
+  resize: vertical;
+}
+
+.form_block .form_content .field_item .item--field[data-type="groupbox"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_block .form_content .field_item .item--field[data-type="groupbox"] label {
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 5px;
+}
+
+.form_block .form_content .field_item.error .item--title {
+  color: red;
+}
+
+.form_block .form_content .field_item.error .item-field {
+  color: red;
+  border-color: red;
+}
+
+.form_block .form_content .content_btn {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: #eee;
+}
+
+.form_message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.form_message .message--title {
+  font-size: 2em;
+}

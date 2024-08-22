@@ -1,0 +1,29 @@
+Array
+(
+    [0] => Array
+        (
+            [entity] => deal
+            [entity_id] => 72
+            [fields] => Array
+                (
+                    [TITLE] => Трудоустройство персонала. Оформление
+                    [UF_CRM_1705310950690] => 
+                    [UF_CRM_1705578604830] => 
+                    [UF_CRM_1705311084797] => 
+                    [UF_CRM_1705311703798] => 
+                    [UF_CRM_638F21A953E21] => 
+                )
+
+            [DOMAIN] => crm.vitamedrf.ru
+            [PROTOCOL] => 1
+            [LANG] => ru
+            [APP_SID] => b488db0975f7c4b8dde1bdf72102e42c
+        )
+
+    [1] => Array
+        (
+            [rest_only] => 
+            [install] => 1
+        )
+
+)
